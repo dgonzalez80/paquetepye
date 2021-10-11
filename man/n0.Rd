@@ -10,8 +10,6 @@ n0(n0, N)
 \item{n0}{valor del tamaño de la muestra inicial}
 
 \item{N}{valor del tamaño de la poblacion}
-
-\item{e}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
 }
 \value{
 n0 tamaño de muestra ajustado
