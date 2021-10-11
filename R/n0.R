@@ -5,10 +5,10 @@
 #' @param e valor del error de muestreo (diferencia entre la media muestral y el parámetro)
 #' @return tamaño de muestra ajustado
 #' @export n
-#' @examples  m.0(385,500) 
+#' @examples  n0(385,500) 
 # ' 
 
 n0=function(n0,N){
-  n=(N*n0)/(N+n0-1)
-  return(n)
+  n0=(N*n0)/(N+n0-1)
+  return(n0)
 }
