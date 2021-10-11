@@ -27,11 +27,11 @@ Con el siguiente comando carga las funciones del paquete:
 ``` r
 library(paquetepye)
 
-## Codigos basico para calcular el tamaño de la muestras para la estimación de la media con una confianza del 95%, una varianza estimada de 428 y un error de muestreo de 2 : (nmu(z,varianza,error))
+## Códigos basico para calcular el tamaño de la muestras para la estimación de la media con una confianza del 95%, una varianza estimada de 428 y un error de muestreo de 2 : (nmu(z,varianza,error))
 nmu(1.96,428,2) 
 #> [1] 411.0512
 
-## Codigo basico para calcular el tamaño de muestra para la estimación de una proporción con un nivel de confianza del 95%, p=0.5 y un error de muestreo de 0.05  (nmu(z,p,error))
+## Códgo básico para calcular el tamaño de muestra para la estimación de una proporción con un nivel de confianza del 95%, p=0.5 y un error de muestreo de 0.05  (nmu(z,p,error))
 np(1.96,0.5,0.05)
 #> [1] 384.16
 
