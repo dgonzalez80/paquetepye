@@ -1,13 +1,12 @@
-#' @title Tamaño de la muestra para la estimación de una proporción 
-#' @description Función que calcula el tamaño de la muestra para la estimación de un media
+#' @title Tamaño de la muestra para la estimación de una proporción
+#' @description Función que calcula el tamaño de la muestra para la estimación de un media: $n=\dfrac{z_{\aloha/2}^{2}p(1-p)}{e^{2}}$
 #' @param z valor del percentil normal que indica el nivel de confianza
-#' @param prob valor de la proporcion estimada 
+#' @param prob valor de la proporcion estimada
 #' @param error valor del error de muestreo (diferencia entre la media muestral y el parámetro)
-#' @return tamaño de muestra para la estimación de una proporción
+#' @return np tamaño de muestra para la estimación de una proporción
 #' @export np
-#' @examples  np(1.96,0.5,0.02) 
-# ' 
-
+#' @examples  np(1.96,0.5,0.02)
+# '
 
 np=function(z,prob,error){
   np=z^2*prob*(1-prob)/error^2
