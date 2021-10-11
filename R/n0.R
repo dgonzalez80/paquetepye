@@ -1,5 +1,5 @@
 #' @title Correcció del tamaño de la muestra por el factor de poblacion finita
-#' @description Función que corrigue el tamaño de la muestra cuando $n/N>0.05$ : $n=\dfrac{Nn_{0}}{N+n_{0}-1}$
+#' @description Función que corrigue el tamaño de la muestra cuando n/N>0.05
 #' @param n0 valor del tamaño de la muestra inicial
 #' @param N valor del tamaño de la poblacion
 #' @param e valor del error de muestreo (diferencia entre la media muestral y el parámetro)

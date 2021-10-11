@@ -4,21 +4,21 @@
 \alias{nmu}
 \title{Tamaño de la muestra para la estimación de una media}
 \usage{
-nmu(z, s2, e)
+nmu(z, varianza, error)
 }
 \arguments{
 \item{z}{valor del percentil normal que indica el nivel de confianza}
 
-\item{s2}{valor de la varianza estimada}
+\item{varianza}{valor de la varianza estimada}
 
-\item{e}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
+\item{error}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
 }
 \value{
-tamaño de muestra para la estimación de una media
+nmu tamaño de muestra para la estimación de una media
 }
 \description{
 Función que calcula el tamaño de la muestra para la estimación de un media
 }
 \examples{
- m.mu(1.96,245,2) 
+ nmu(1.96,245,2)
 }

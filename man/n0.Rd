@@ -14,11 +14,11 @@ n0(n0, N)
 \item{e}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
 }
 \value{
-tamaño de muestra ajustado
+n0 tamaño de muestra ajustado
 }
 \description{
-Función que corrigue el tamaño de la muestra cuando n/N > 0.05
+Función que corrigue el tamaño de la muestra cuando n/N>0.05
 }
 \examples{
- m.0(385,500) 
+ n0(385,500)
 }

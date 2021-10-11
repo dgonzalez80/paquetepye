@@ -4,21 +4,21 @@
 \alias{np}
 \title{Tamaño de la muestra para la estimación de una proporción}
 \usage{
-np(z, p, e)
+np(z, prob, error)
 }
 \arguments{
 \item{z}{valor del percentil normal que indica el nivel de confianza}
 
-\item{p}{valor de la proporcion estimada}
+\item{prob}{valor de la proporcion estimada}
 
-\item{e}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
+\item{error}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
 }
 \value{
-tamaño de muestra para la estimación de una proporción
+np tamaño de muestra para la estimación de una proporción
 }
 \description{
-Función que calcula el tamaño de la muestra para la estimación de un media
+Función que calcula el tamaño de la muestra para la estimación de un media:
 }
 \examples{
- m.mu(1.96,0.5,0.02) 
+ np(1.96,0.5,0.02)
 }

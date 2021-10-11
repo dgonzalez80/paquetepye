@@ -1,5 +1,5 @@
 #' @title Tamaño de la muestra para la estimación de una media
-#' @description Función que calcula el tamaño de la muestra para la estimación de un media $n=\dfrac{z_{\alpha/2}^{2}\sigma^{2}}{e^{2}}}$
+#' @description Función que calcula el tamaño de la muestra para la estimación de un media 
 #' @param z valor del percentil normal que indica el nivel de confianza
 #' @param varianza valor de la varianza estimada
 #' @param error valor del error de muestreo (diferencia entre la media muestral y el parámetro)

@@ -1,5 +1,5 @@
 #' @title Tamaño de la muestra para la estimación de una proporción
-#' @description Función que calcula el tamaño de la muestra para la estimación de un media: $n=\dfrac{z_{\aloha/2}^{2}p(1-p)}{e^{2}}$
+#' @description Función que calcula el tamaño de la muestra para la estimación de un media: 
 #' @param z valor del percentil normal que indica el nivel de confianza
 #' @param prob valor de la proporcion estimada
 #' @param error valor del error de muestreo (diferencia entre la media muestral y el parámetro)
