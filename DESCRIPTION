@@ -1,5 +1,5 @@
 Package: paquetepye
-Title: Paquete curso Probabilidad y Estadística
+Title: Paquete curso Probabilidad y Estadistica
 Version: 0.0.0.1
 Authors@R: 
     person("Daniel Enrique", "Gonzalez", , "dgonzalez@javerianacali.edu.co", role = c("aut", "cre"),

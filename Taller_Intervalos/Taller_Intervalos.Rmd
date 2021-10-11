@@ -84,3 +84,47 @@ Tomado de Navidi(2006)
 ```{r ej, exercise=TRUE}
 x=c(7.69, 4.97, 4.56, 6.49, 4.34, 6.24, 4.45)
 ```
+
+## Ejercicio 6
+
+En una muestra de 205 estudiantes, 124 se mostraron de acuerdo con la siguiente afirmación : La medida de postergar a la semana 14 la fecha de cancelaciones de
+asignaturas mejora el rendimiento académico de los estudiantes. Estime un intervalo de confianza para la proporción de estudiantes que estan a favor de la medida del 95% e interprete el resultado
+
+```{r ej6, exercise=TRUE}
+
+
+```
+
+## Ejercicio 7
+
+El CRAI (Centro de Recursos para el Aprendizaje y la Investigación) realizo un estudio para determinar si los temas de un curso de Probabilidad y Estadística se comprenden mejor cuando se incorpora el uso de TICs como vídeos y uso del computador. Para realizar el estudio se seleccionaron estudiantes al azar para que participaran en un curso intersemestral trabajado de manera tradicional y otro curso que incluía apoyos visuales y practicas en computador (TICs) . En la secciones con TICs participaron 11 estudiantes que obtuvieron una calificación promedio de 85 puntos en una escala de 10 a 100, con una desviación estandar de 4.7; mientras que en el curso sin apoyo de TICs participaron 17 estudiantes que alcanzaron una calificación promedio de 79 con una desviación estándar de 6.1. Dada su experiencias en este tema con la que usted cuenta, ayude al CRAI a determinar si los resultados apoyan o no la importancia de incorporar TICs en los cursos para el mejoramiento del aprendizaje. Suponga que las poblaciones se distribuyen de forma aproximadamente
+normal.
+
+
+```{r ej7, exercise=TRUE}
+
+
+```
+
+## Ejercicio 8
+
+Una empresa requiere realizar un estudio para establecer las frecuencias de presentación de fallas en el seguimiento del servicio que presta la empresa . El auditor
+encargado del estudio decide que la tasa de error máximo tolerable debe ser del 5% y el nivel de confianza del 99%. Con esta información una firma de auditores
+externa presenta una propuesta a la empresa por valor de $ 11.2 millones para realizar el estudio y justifica su costo así:
+Por costos administrativos y de logística corresponde un valor de $5.4 millones y cada encuesta realizada tiene un valor de $20 mil pesos. El Director de la empresa le
+encarga a usted revisar la información darle un concepto sobre la propuesta realizada por la firma de auditores a la mayor brevedad
+
+```{r ej8, exercise=TRUE}
+
+
+```
+
+## Ejercicio 9
+
+Recientemente la fabrica de muebles para oficina PIMA ha experimentado un incremento en la unidades defectuosas . El supervisor sospecha que el turno de la noche es el causante de este incremento. Con este propósito el supervisor realiza una revisión de los registros que tiene la fabrica de los últimos meses. De esta información como referente tomo una muestra de tamaño 500 del turno diurno dentro de las cuales encontró un total de 22 unidades defectuosas. Para el turno de la noche tomo una muestra de 400 unidades que arrojo 22 unidades defectuosas. El Director le pide le ayude a determinar si su creencia es cierta o si esta equivocado. El resultado le ayudara a decidir que grupo de empleados deberán ser recapacitados con el fin de disminuir las unidades defectuosas. Escriba un breve informe al director donde le indique los resultados encontrados.
+
+```{r ej9, exercise=TRUE}
+
+
+```
+
