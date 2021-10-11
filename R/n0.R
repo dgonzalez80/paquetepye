@@ -8,7 +8,7 @@
 #' @examples  m.0(385,500) 
 # ' 
 
-n.0=function(n0,N){
+n0=function(n0,N){
   n=(N*n0)/(N+n0-1)
   return(n)
 }
