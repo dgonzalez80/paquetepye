@@ -86,10 +86,6 @@ De acuerdo con la información, es posible preferir alguno de ellos?
 ¿Que supuestos se deben verificar?
 
 
-```{r punto6, exercise=TRUE}
-
-```
-
 
 ## punto 7
 
