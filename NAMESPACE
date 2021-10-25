@@ -3,3 +3,4 @@
 export(n0)
 export(nmu)
 export(np)
+export(valorp)

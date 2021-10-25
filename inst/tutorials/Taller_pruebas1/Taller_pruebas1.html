@@ -125,30 +125,41 @@ $(document).ready(function () {
 </div>
 <div id="section-punto-2" class="section level2">
 <h2>punto 2</h2>
-<p>Suponga que una empresa desarrolla un curso de entrenamiento para sus empleados, formando dos grupos y aplicándoles dos métodos distintos de entrenamiento. El primer grupo lo componen 36 empleados, mientras que el segundo grupo por 40 empleados. Los resultados se presentan a continuación:</p>
+<p>Suponga que una empresa desarrolla un curso de entrenamiento para sus empleados, formando dos grupos y aplicándoles dos métodos distintos de entrenamiento. El primer grupo lo componen 36 empleados, mientras que el segundo grupo por 40 empleados. Los resultados en calificaciones entre 0 y 10, se presentan a continuación:</p>
 <div class="tutorial-exercise" data-label="punto2" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>g1=c(6.2,  5.0,  6.9,  7.5,  8.6,  9.0,  7.0,  6.3, 9.9,  7.2,  8.1,  6.3,  5.2,  7.7,  5.7,  7.1,  6.4,  7.1,  8.3,  8.2,  6.4,  7.0,  7.8,  6.9,  8.5,  7.7,  8.2,  5.9,  9.8,  5.9,  6.7,  6.3,  6.7,  5.4,  7.2,  6.4)
 
-g2=c(8.2,  6.7,  7.6,  8.3,  9.4,  7.3,  6.7,  7.2,  9.8,  9.6,  8.9,  7.3,  9.7,  7.9,  9.1,  9.0,  9.2, 7.4,  8.3,  8.6,  8.5,  9.2,  7.0,  6.6,  8.4, 8.3,  7.5,  6.8,  7.0,  7.3, 8.9,  6.2,  7.1,  8.5, 9.1,  7.9,  8.1,  8.6,  6.8,  9.0)</code></pre>
+g2=c(8.2,  6.7,  7.6,  8.3,  9.4,  7.3,  6.7,  7.2,  9.8,  9.6,  8.9,  7.3,  9.7,  7.9,  9.1,  9.0,  9.2, 7.4,  8.3,  8.6,  8.5,  9.2,  7.0,  6.6,  8.4, 8.3,  7.5,  6.8,  7.0,  7.3, 8.9,  6.2,  7.1,  8.5, 9.1,  7.9,  8.1,  8.6,  6.8,  9.0)
+
+par(mfrow = c(1, 2))
+boxplot(g1, las=1, col = c2, ylim=c(0,10))
+boxplot(g2, las=1, col = c3, ylim=c(0,10))</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
 </div>
 </div>
 <div id="section-punto-3" class="section level2">
 <h2>punto 3</h2>
-<p>Los ingenieros de una ensambladora de automóviles requieren decidir sobre cual de dos de las marcas de neumáticos de deben comprar. La marca FB o la marca KT. Con el fin de tomar una decisión basada en evidencias estadísticas, deciden realizar un experimento en el que usan 12 neumáticos de cada marca. Los neumáticos se utilizan hasta su terminación . Los resultados obtenidos se presentan a continuación :</p>
+<p>Los ingenieros de una ensambladora de automóviles requieren decidir sobre cual de dos de las marcas de neumáticos de deben comprar. La marca FB o la marca KT. Con el fin de tomar una decisión basada en evidencias estadísticas, deciden realizar un experimento en el que usan 12 neumáticos de cada marca. Los neumáticos se utilizan hasta su terminación . Los resultados obtenidos (en miles de kilometros) se presentan a continuación :</p>
 <div class="tutorial-exercise" data-label="punto3" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>FB=c(41.8, 41.6, 31.5, 48.7, 40.8, 31.2, 36.5, 36.2, 32.8, 36.3, 38.6, 30.5)
-KT=c(40.5, 38.4, 44.0, 34.9, 44.0, 44.7, 44.0, 47.1, 39.8, 43.9)</code></pre>
+KT=c(40.5, 38.4, 44.0, 34.9, 44.0, 44.7, 44.0, 47.1, 39.8, 43.9, 38.5, 40.2)
+par(mfrow = c(1, 2))
+boxplot(FB, las=1, col = c2, ylim=c(0,50))
+boxplot(KT, las=1, col = c3, ylim=c(0,50))</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
 </div>
 <p>¿Cual de las marcas de neumáticos recomendaría comprar? ¿Que supuestos deberá confirmar?. Utilice un <span class="math inline">\(\alpha=0.05\)</span></p>
 </div>
 <div id="section-punto-4" class="section level2">
 <h2>punto 4</h2>
-<p>Un ingeniero desea establecer si existen diferencias entre dos métodos diferentes de realizar el ensamble de una casa prefabricada. Para comprobarlo recogen información de ambos métodos en horas, los cuales se presentan a continuación:</p>
+<p>Un ingeniero desea establecer si existen diferencias entre dos métodos diferentes de realizar el ensamble de una casa prefabricada. Para comprobarlo recogen información del tiempo empleado en el ensamble de una pieza para ambos métodos en horas, los cuales se presentan a continuación:</p>
 <div class="tutorial-exercise" data-label="punto4" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>met.nue=c(32, 37, 35, 28, 41, 44, 35, 31, 34) 
-met.est=c(35, 31, 29, 25, 34, 40, 27, 32, 31)</code></pre>
+met.est=c(35, 31, 29, 25, 34, 40, 27, 32, 31)
+
+par(mfrow = c(1, 2))
+boxplot(met.nue, las=1, col = c2, ylim=c(0,45))
+boxplot(met.est, las=1, col = c3, ylim=c(0,45))</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
 </div>
 <p>Presentan los datos suficiente evidencia que permita afirmar que el nuevo método es mas eficiente que el método estándar? (Utilice un <span class="math inline">\(\alpha=0.05\)</span>)</p>
@@ -168,17 +179,25 @@ x2=c( 98, 85, 85, 103, 88, 95, 79, 90, 82, 76, 89, 81,  99, 86, 111, 70)</code><
 <p>Se realizan pruebas de un nuevo lector láser manual para uso en la realización de inventarios y del lector utilizado actualmente, con el fin de decidir si se adquiere el primero. Se obtienen los datos sobre el número de códigos de barra leídos por segundo con el cada uno de los dispositivos.</p>
 <div class="tutorial-exercise" data-label="punto6" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>lec.nue=c(35, 40, 36, 42, 41, 52, 36, 41, 49, 41, 45, 38, 31, 54, 37, 47, 38, 34, 46, 39, 45, 44, 41, 42, 36, 43, 35, 31, 38, 38, 41, 41, 44, 44, 35, 44, 38, 33, 38, 49, 45, 45,  38, 46, 28, 40, 41, 47, 43, 50, 39, 36, 39, 38, 37, 37, 47, 37, 41, 40, 35)
-lec.act=c(41, 33, 22, 27, 31, 25, 28, 36, 29, 32, 25, 31, 31, 30, 31, 36, 26, 29, 29, 26, 27, 27, 30, 34, 26, 30, 23, 22, 29, 31, 37, 32, 34, 25, 25, 36, 32, 30, 23, 31, 33, 27, 27, 29, 35, 36, 27, 29, 25, 34, 27, 25, 32, 37, 31, 33, 27, 31, 26, 25, 24)</code></pre>
+lec.act=c(41, 33, 22, 27, 31, 25, 28, 36, 29, 32, 25, 31, 31, 30, 31, 36, 26, 29, 29, 26, 27, 27, 30, 34, 26, 30, 23, 22, 29, 31, 37, 32, 34, 25, 25, 36, 32, 30, 23, 31, 33, 27, 27, 29, 35, 36, 27, 29, 25, 34, 27, 25, 32, 37, 31, 33, 27, 31, 26, 25, 24)
+
+par(mfrow = c(1, 2))
+boxplot(lec.nue, las=1, col = c2, ylim=c(0,60))
+boxplot(lec.act, las=1, col = c3, ylim=c(0,60))</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
 </div>
 <p>De acuerdo con la información, es posible preferir alguno de ellos? ¿Que supuestos se deben verificar?</p>
 </div>
 <div id="section-punto-7" class="section level2">
 <h2>punto 7</h2>
-<p>Un empresario registro el numero de artículos producidos durante 10 días para un grupo conformado por 15 obreros los cuales tienen un salario fijo (grupo 1). El gerente piensa que si se cambia la forma del salario tendrán mejores resultados. Para verificarlo introduce cambios en la forma de pago a un segundo grupo (grupo 2) . El numero de artículos producidos por ambos grupos son los siguientes:</p>
+<p>Un empresario registro el número de artículos producidos durante 10 días para un grupo conformado por 15 obreros los cuales tienen un salario fijo (grupo 1). El gerente piensa que si se cambia la forma del salario tendrán mejores resultados. Para verificarlo introduce cambios en la forma de pago a un segundo grupo (grupo 2) . El numero de artículos producidos por ambos grupos son los siguientes:</p>
 <div class="tutorial-exercise" data-label="punto7" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>g1=c(75, 76, 74, 80, 72, 78, 76, 73, 72, 75)
-g2=c(86, 78, 86, 84, 81, 79, 78, 84, 88, 80)</code></pre>
+g2=c(86, 78, 86, 84, 81, 79, 78, 84, 88, 80)
+
+par(mfrow = c(1, 2))
+boxplot(g1, las=1, col = c2, ylim=c(70,90))
+boxplot(g2, las=1, col = c3, ylim=c(70,90))</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
 </div>
 <p>Suponiendo que los salarios pagados a ambos grupos son equivalentes, se podría afirmar que el plan de incentivos es efectivo? ¿Que supuestos se deben verificar?</p>
@@ -194,6 +213,13 @@ g2=c(86, 78, 86, 84, 81, 79, 78, 84, 88, 80)</code></pre>
 <script type="application/shiny-prerendered" data-context="server-start">
 library(learnr)
 tutorial_options(exercise.timelimit = 60)
+
+c0="#0DA5A6" # VERDE CLARO
+c1="#E77C00" # NARANJA
+c2="#6666FF" # AZUL  
+c3="#4CBFBA" # VERDE CLARO  
+c4="#E09600" # AMARILLO  
+c5="#BC2B6A" # MORADO  
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
