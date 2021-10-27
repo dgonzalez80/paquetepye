@@ -1,7 +1,7 @@
-#' @title Correcció del tamaño de la muestra por el factor de poblacion finita
-#' @description Función que corrigue el tamaño de la muestra cuando n/N>0.05
+#' @title Corrección del tamaño de la muestra por el factor de población finita
+#' @description Función que corrige el tamaño de la muestra cuando n/N>0.05
 #' @param n0 valor del tamaño de la muestra inicial
-#' @param N valor del tamaño de la poblacion
+#' @param N valor del tamaño de la población
 #' @return n0 tamaño de muestra ajustado
 #' @export n0
 #' @examples  n0(385,500)

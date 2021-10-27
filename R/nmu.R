@@ -5,7 +5,7 @@
 #' @param error valor del error de muestreo (diferencia entre la media muestral y el parámetro)
 #' @return nmu tamaño de muestra para la estimación de una media
 #' @export nmu
-#' @examples  nmu(1.96,245,2)
+#' @examples nmu(1.96,245,2)
 # '
 
 nmu=function(z,varianza,error){
