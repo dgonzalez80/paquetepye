@@ -9,7 +9,7 @@ np(z, prob, error)
 \arguments{
 \item{z}{valor del percentil normal que indica el nivel de confianza}
 
-\item{prob}{valor de la proporcion estimada}
+\item{prob}{valor de la proporción estimada}
 
 \item{error}{valor del error de muestreo (diferencia entre la media muestral y el parámetro)}
 }
@@ -20,5 +20,5 @@ np tamaño de muestra para la estimación de una proporción
 Función que calcula el tamaño de la muestra para la estimación de un media:
 }
 \examples{
- np(1.96,0.5,0.02)
+np(1.96,0.5,0.02)
 }

@@ -20,5 +20,5 @@ nmu tamaño de muestra para la estimación de una media
 Función que calcula el tamaño de la muestra para la estimación de un media
 }
 \examples{
- nmu(1.96,245,2)
+nmu(1.96,245,2)
 }
