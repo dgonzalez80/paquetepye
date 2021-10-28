@@ -21,10 +21,13 @@ x=c(16, 15, 12, 17, 18, 14, 16, 14, 16, 17, 19, 16, 14, 21, 20, 16, 16, 16)
 
 ```
 
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
 
 ## Problema 2 
 
-Santiago, investigador del C.I.P.U.J.  está interesado en determinar si la acupuntura afecta la tolerancia al dolor. Realiza un experimento en el cual elige al azar a 10 estudiantes universitarios. Cada uno de ellos es utilizado en dos condiciones  y recibe un choque eléctrico de corta duración en la pulpa de un diente, la intensidad del choque eléctrico es corta pero produce un dolor moderado al sujeto. Después de cada choque percibido, cada individuo califica el nivel de dolor percibido en una escala de 0 a 10 ( 10 dolor máximo) Los resultados obtenidos son: 
+Santiago, investigador del CIPUJ  está interesado en determinar si la acupuntura afecta la tolerancia al dolor. Realiza un experimento en el cual elige al azar a 10 estudiantes universitarios. Cada uno de ellos es utilizado en dos condiciones  y recibe un choque eléctrico de corta duración en la pulpa de un diente, la intensidad del choque eléctrico es corta pero produce un dolor moderado al sujeto. Después de cada choque percibido, cada individuo califica el nivel de dolor percibido en una escala de 0 a 10 ( 10 dolor máximo) Los resultados obtenidos son: 
 
 ```{r punto2, exercise=TRUE}
 # Con acupuntura
@@ -34,6 +37,9 @@ sa=c(8, 9, 4, 7, 9, 4, 5, 10, 7, 4)
 ```
 
 
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
 
 ##  Problema 3 
 
@@ -45,7 +51,9 @@ g1=c(39,10,21,29,11,26,7,12,28,82,30,27,50,19,24)
 g2=c(68,32,58,16,23,53,55,32,61,29,50,64,67,37)
 ```
 
-
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
 
 ## Problema 4 
 
@@ -59,7 +67,9 @@ m15=c(42,57,38,49,63,36,48,58,47,51,83,27)
 M25=c(40,60,38,47,65,39,49,50,47,52,72,33)
 ```
 
-
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
 
 ## Problema 5
 
@@ -76,11 +86,14 @@ El Dueño de una panadería tiene la posibilidad de controlar los niveles de inv
 #----------------+--------
 #  Total         | 100
 
-
 obs= c(33,22,21,24)       # frecuencias observadas
 esp= c(0.25,0.25,0.25,0.25)  # frecuencias esperadas
+
 ```
 
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
 
 ##  Problema 6 
 
@@ -88,18 +101,27 @@ Un director de carrera de una Universidad  quiere investigar si los resultados e
 
 ```{r punto6, exercise=TRUE}
 nf=c( 3.1, 3.3, 2.9, 3.3, 3.5, 2.8, 4.0, 2.7, 3.7, 2.7, 3.7, 3.4, 4.0, 4.4, 2.9, 4.0, 4.5, 3.5, 3.1, 4.5, 3.9, 3.7, 2.9, 4.7, 4.4, 2.7, 3.4, 2.8, 3.0, 2.9, 4.1, 3.7, 4.4, 3.0, 3.5, 2.4, 3.8, 2.2, 1.4, 3.4)
+
 ```
+
+
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
+
 
 ## Problema 7 
 
 Comprobar que los números aleatorios generados en Excel son realmente aleatorios.  Para generarlos se tomo la función `=aleatorio()` de la hoja electrónica y la prueba no paramétrica de rachas: 0.738   0.202   0.357   0.561   0.509   0.146   0.746   0.666  0.133   0.430   0.972   0.999   0.499   0.869   0.821   0.732   0.355   0.189   0.478   0.162
 
 ```{r punto7, exercise=TRUE}
-x8=c(0.738,   0.202,   0.357,   0.561,   0.509,   0.146,   0.746,   0.666,  0.133,   0.430,   0.972,   0.999,   0.499,   0.869,   0.821, 0.732,   0.355,   0.189,   0.478,  0.162)
+x8=c(0.738, 0.202,  0.357, 0.561, 0.509, 0.146, 0.746, 0.666, 0.133, 0.430, 0.972, 0.999, 0.499, 0.869, 0.821, 0.732, 0.355,  0.189, 0.478, 0.162)
 ```
 
 
-
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
 ## Problema 8
 
 Se requiere establecer si existe relación entre el tiempo de estudio ($t$) y la nota obtenida en un examen ($n$). Como la calificación del examen corresponde a una variable cualitativa se debe utilizar una prueba no parametrica (Coeficiente de correlación de Spearman) Los datos obtenidos son : 
@@ -116,7 +138,6 @@ n=c(4,4,4,3,3,5,3,1,1,2)
 Un investigador desea establecer la relación que puede existir entre la calificación un producto realizada por sus consumidores y su ubicación de residencia. Con este fin recoge información de 100 clientes :
 
 ```{r punto10, exercise=TRUE}
-
 #                |      Lugar      
 # Calificación   |  Urbano    |  Rural     | 
 #----------------+------------+------------+
@@ -125,4 +146,12 @@ Un investigador desea establecer la relación que puede existir entre la calific
 # Mala           |      15    |      6     |
 #----------------+------------+------------+
 
+
 ```
+
++ ¿ Qué tipo de pruebas utilizar? (paramétricas o no paramétricas) ¿Porqué?
++ ¿Cuál es la prueba apropiada en este caso?
++ ¿Cuales son las hipótesis a contrastar?
+
+
+
