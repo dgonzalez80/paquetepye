@@ -52,8 +52,8 @@ Una mezcla de sacarosa y agua es calentada en una plancha y la temperatura (en �
 
 a. Estime la recta de MCO para estimar la temperatura como función del tiempo, usando la información obtenida con el termómetro T1
 b. Realice el anterior procedimiento para los datos obtenidos con los termómetros T2 y T3
-c. Se sedea calcular una sola recta para calcular la temperatura como función del tiempo. Uno de los investigadores sugiere promediar los tres resultados de las pendientes y promediar los tres estimadores de los intercepto para obtener una sola estimación. Determine la ecuación resulta de obtenida por este método.
-d. Otro de los investigadores sugiere promediar las tres mediciones de la temperatura cada vez para obtener : $\bar{T} =(T_{1}+T_{2}+T_{3}/3$ . Estime la recta de regresión por MCO usando $\bar{T}$ como valor para la temperatura
+c. Se desea calcular una sola recta para calcular la temperatura como función del tiempo. Uno de los investigadores sugiere promediar los tres resultados de las pendientes y promediar los tres estimadores de los intercepto para obtener una sola estimación. Determine la ecuación resulta de obtenida por este método.
+d. Otro de los investigadores sugiere promediar las tres mediciones de la temperatura cada vez para obtener : $\bar{T} =(T_{1}+T_{2}+T_{3})/3$ . Estime la recta de regresión por MCO usando $\bar{T}$ como valor para la temperatura
 f. ¿Son los resultados obtenidos en (c) y (d) diferentes?
 
 
