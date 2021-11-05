@@ -23,12 +23,19 @@ En pruebas diseñadas para medir el efecto de cierto aditivo en el tiempo de sec
 
 
 a. Construya un diagrama de dispersión de la concetración del aditivo (x) contra el tiempo de secado (y). Verifique si es adecuado un modelo lineal (Nota: el modelo puede tener otras formas como log-log, log-lin, lin-log,...)
+
 b. Estime la ecuación del modelo que permita estimar el tiempo de secado a partir de la concentración del aditivo.
+
 c. Calcule el valor los valores ajustados ($\widehat{y_{i}}$) y los residuos ($\widehat{u_{i}}$) para cada uno de los resultados obtenidos
+
 d. Si se aumenta la concentración del aditivo en un 0.1%, ¿en cuánto predecirá el modelo que aumente o disminuya el tiempo de secado?
+
 e. Realice un pronostico del tiempo de secado para una concentración del 4.4% de aditivo
+
 f. ¿Puede utilizarse el modelo estimado para realizar un pronóstico del tiempo de secado con respecto a una concentración del 7% ? . Si es así, encuentre el valor. En caso contrario explique el por qué.
+
 g. ¿Para que concentración pronosticaría un tiempo de secado de 8.2 horas?
+
 h. El objetivo de este proyecto es reducir el tiempo de secado a seis horas. Con base en los datos dados, ¿puede especificar una concentración que probablemente ocasiones este resultado? . Si es así, especifique la concentración. Si no, explique por qué.
 
 
@@ -51,9 +58,13 @@ Una mezcla de sacarosa y agua es calentada en una plancha y la temperatura (en �
 |         |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 
 a. Estime la recta de MCO para estimar la temperatura como función del tiempo, usando la información obtenida con el termómetro T1
+
 b. Realice el anterior procedimiento para los datos obtenidos con los termómetros T2 y T3
-c. Se desea calcular una sola recta para calcular la temperatura como función del tiempo. Uno de los investigadores sugiere promediar los tres resultados de las pendientes y promediar los tres estimadores de los intercepto para obtener una sola estimación. Determine la ecuación resulta de obtenida por este método.
-d. Otro de los investigadores sugiere promediar las tres mediciones de la temperatura cada vez para obtener : $\bar{T} =(T_{1}+T_{2}+T_{3})/3$ . Estime la recta de regresión por MCO usando $\bar{T}$ como valor para la temperatura
+
+c. Se desea calcular una sola recta para calcular la temperatura como función del tiempo. Uno de los investigadores sugiere promediar los tres resultados de las pendientes y tambien promediar los tres estimadores de los intercepto para obtener una sola estimación. Determine la ecuación resulta de obtenida por este método.
+
+d. Otro de los investigadores sugiere promediar las tres mediciones de la temperatura para cada uno de los tiempos medidos para obtener : $\bar{T} =(T_{1}+T_{2}+T_{3})/3$ . Estime la recta de regresión por MCO usando $\bar{T}$ como valor para la temperatura
+
 f. ¿Son los resultados obtenidos en (c) y (d) diferentes?
 
 
