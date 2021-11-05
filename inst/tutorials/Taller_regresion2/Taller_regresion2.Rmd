@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-## **PROBLEMAS PROPUESTAS**
+## **PROBLEMAS PROPUESTOS**
 
 ### Problema 1
 
