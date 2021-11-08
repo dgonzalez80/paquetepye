@@ -116,8 +116,8 @@ $(document).ready(function () {
 
 <div class="topics">
 
-<div id="section-problemas-propuestas" class="section level2">
-<h2><strong>PROBLEMAS PROPUESTAS</strong></h2>
+<div id="section-problemas-propuestos" class="section level2">
+<h2><strong>PROBLEMAS PROPUESTOS</strong></h2>
 <div id="section-problema-1" class="section level3">
 <h3>Problema 1</h3>
 <p>En pruebas diseñadas para medir el efecto de cierto aditivo en el tiempo de secado de pinturas se obtienen los siguientes resultados</p>
@@ -140,20 +140,21 @@ $(document).ready(function () {
 </tbody>
 </table>
 <ol style="list-style-type: lower-alpha">
-<li>Construya un diagrama de dispersión de la concetración del aditivo (x) contra el tiempo de secado (y). Verifique si es adecuado un modelo lineal (Nota: el modelo puede tener otras formas como log-log, log-lin, lin-log,…)</li>
-<li>Estime la ecuación del modelo que permita estimar el tiempo de secado a partir de la concentración del aditivo.</li>
-<li>Calcule el valor los valores ajustados (<span class="math inline">\(\widehat{y_{i}}\)</span>) y los residuos (<span class="math inline">\(\widehat{u_{i}}\)</span>) para cada uno de los resultados obtenidos</li>
-<li>Si se aumenta la concentración del aditivo en un 0.1%, ¿en cuánto predecirá el modelo que aumente o disminuya el tiempo de secado?</li>
-<li>Realice un pronostico del tiempo de secado para una concentración del 4.4% de aditivo</li>
-<li>¿Puede utilizarse el modelo estimado para realizar un pronóstico del tiempo de secado con respecto a una concentración del 7% ? . Si es así, encuentre el valor. En caso contrario explique el por qué.</li>
-<li>¿Para que concentración pronosticaría un tiempo de secado de 8.2 horas?</li>
-<li>El objetivo de este proyecto es reducir el tiempo de secado a seis horas. Con base en los datos dados, ¿puede especificar una concentración que probablemente ocasiones este resultado? . Si es así, especifique la concentración. Si no, explique por qué.</li>
+<li><p>Construya un diagrama de dispersión de la concetración del aditivo (x) contra el tiempo de secado (y). Verifique si es adecuado un modelo lineal (Nota: el modelo puede tener otras formas como log-log, log-lin, lin-log,…)</p></li>
+<li><p>Estime la ecuación del modelo que permita estimar el tiempo de secado a partir de la concentración del aditivo.</p></li>
+<li><p>Calcule el valor los valores ajustados (<span class="math inline">\(\widehat{y_{i}}\)</span>) y los residuos (<span class="math inline">\(\widehat{u_{i}}\)</span>) para cada uno de los resultados obtenidos</p></li>
+<li><p>Si se aumenta la concentración del aditivo en un 0.1%, ¿en cuánto predecirá el modelo que aumente o disminuya el tiempo de secado?</p></li>
+<li><p>Realice un pronostico del tiempo de secado para una concentración del 4.4% de aditivo</p></li>
+<li><p>¿Puede utilizarse el modelo estimado para realizar un pronóstico del tiempo de secado con respecto a una concentración del 7% ? . Si es así, encuentre el valor. En caso contrario explique el por qué.</p></li>
+<li><p>¿Para que concentración pronosticaría un tiempo de secado de 8.2 horas?</p></li>
+<li><p>El objetivo de este proyecto es reducir el tiempo de secado a seis horas. Con base en los datos dados, ¿puede especificar una concentración que probablemente ocasiones este resultado? . Si es así, especifique la concentración. Si no, explique por qué.</p></li>
 </ol>
 <div class="tutorial-exercise" data-label="problema1" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>x=c(4.0, 4.2, 4.4, 4.6, 4.8, 5.0, 5.2, 5.4, 5.6, 5.8)
 y=c(8.7, 8.8, 8.3, 8.7, 8.1, 8.0, 8.1, 7.7, 7.5, 7.2)</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.checker":"NULL"}</script>
 </div>
+<p>Nota: se supone que para utilizar los modelos, se debe primero validar los supuestos sobre los errores</p>
 </div>
 </div>
 <div id="section-problema-2" class="section level2">
@@ -286,11 +287,11 @@ y=c(8.7, 8.8, 8.3, 8.7, 8.1, 8.0, 8.1, 7.7, 7.5, 7.2)</code></pre>
 </tbody>
 </table>
 <ol style="list-style-type: lower-alpha">
-<li>Estime la recta de MCO para estimar la temperatura como función del tiempo, usando la información obtenida con el termómetro T1</li>
-<li>Realice el anterior procedimiento para los datos obtenidos con los termómetros T2 y T3</li>
-<li>Se sedea calcular una sola recta para calcular la temperatura como función del tiempo. Uno de los investigadores sugiere promediar los tres resultados de las pendientes y promediar los tres estimadores de los intercepto para obtener una sola estimación. Determine la ecuación resulta de obtenida por este método.</li>
-<li>Otro de los investigadores sugiere promediar las tres mediciones de la temperatura cada vez para obtener : <span class="math inline">\(\bar{T} =(T_{1}+T_{2}+T_{3}/3\)</span> . Estime la recta de regresión por MCO usando <span class="math inline">\(\bar{T}\)</span> como valor para la temperatura</li>
-<li>¿Son los resultados obtenidos en (c) y (d) diferentes?</li>
+<li><p>Estime la recta de MCO para estimar la temperatura como función del tiempo, usando la información obtenida con el termómetro T1</p></li>
+<li><p>Realice el anterior procedimiento para los datos obtenidos con los termómetros T2 y T3</p></li>
+<li><p>Se desea calcular una sola recta para calcular la temperatura como función del tiempo. Uno de los investigadores sugiere promediar los tres resultados de las pendientes y tambien promediar los tres estimadores de los intercepto para obtener una sola estimación. Determine la ecuación resulta de obtenida por este método.</p></li>
+<li><p>Otro de los investigadores sugiere promediar las tres mediciones de la temperatura para cada uno de los tiempos medidos para obtener : <span class="math inline">\(\bar{T} =(T_{1}+T_{2}+T_{3})/3\)</span> . Estime la recta de regresión por MCO usando <span class="math inline">\(\bar{T}\)</span> como valor para la temperatura</p></li>
+<li><p>¿Son los resultados obtenidos en (c) y (d) diferentes?</p></li>
 </ol>
 <div class="tutorial-exercise" data-label="problema2" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>T1=c(20, 18, 29,  32,  37,  36,  46,  46,  56,  58,  64,  72, 79,  84,  82,  87,  98, 103, 101, 103, 102)
@@ -298,7 +299,7 @@ T2=c(18, 22, 22,  25,  37,  46,  45,  44,  54,  64,  69,  65,  80,  74,  87,  93
 T3=c(21, 11, 26,  35,  33,  35,  44,  43,  63,  68,  62,  65,  80,  75,  78,  88,  91, 103, 109, 107, 104)</code></pre>
 <script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"paged","exercise.checker":"NULL"}</script>
 </div>
-
+Nota: se supone que para utilizar los modelos, se debe primero validar los supuestos sobre los errores 
 <script type="application/shiny-prerendered" data-context="server-start">
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
